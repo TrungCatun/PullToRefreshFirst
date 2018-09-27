@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    private let refreshController = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
